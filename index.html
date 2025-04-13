@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Kague Ngigi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar with Flexbox -->
+    <nav class="navbar">
+        <div class="logo">Daniel Kague Ngigi</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Hero Section with Flexbox -->
+        <section class="hero" id="home">
+            <div class="hero-image">DK</div>
+            <h1>Daniel Kague Ngigi</h1>
+            <p>Web Developer & UI/UX Designer</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </section>
+
+        <!-- Skills Section with CSS Grid -->
+        <h2 class="section-title" id="skills">My Skills</h2>
+        <section class="skills">
+            <div class="skill-card">
+                <div class="skill-icon">F</div>
+                <h3>Flexbox</h3>
+                <p>Creating flexible one-dimensional layouts for perfect alignment.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">G</div>
+                <h3>CSS Grid</h3>
+                <p>Building complex two-dimensional layouts with ease.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">R</div>
+                <h3>Responsive Design</h3>
+                <p>Ensuring websites work beautifully on all devices.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section with Grid -->
+        <h2 class="section-title" id="projects">My Projects</h2>
+        <section class="projects">
+            <div class="project-card">
+                <div class="project-img">Project Image</div>
+                <div class="project-info">
+                    <h3>Responsive E-commerce</h3>
+                    <p>A fully responsive online store using Flexbox for product layouts and Grid for page structure.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">Project Image</div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A portfolio site that adapts to any screen size with CSS Grid and media queries.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section with combined Grid and Flexbox -->
+        <section class="about-section" id="about">
+            <div class="main-content">
+                <h2>About Me</h2>
+                <p>I am a passionate web developer with expertise in creating responsive, user-friendly websites. My focus is on crafting clean, efficient code and designing intuitive user experiences.</p>
+                <p>With a strong foundation in HTML, CSS, and JavaScript, I specialize in modern layout techniques including Flexbox and CSS Grid. These powerful tools allow me to build complex layouts that adapt perfectly to any screen size.</p>
+                <p>I believe that good design is about more than aesthetics – it's about creating interfaces that are accessible, intuitive, and provide value to users. My approach combines technical expertise with creative problem-solving to deliver exceptional digital experiences.</p>
+            </div>
+            <aside class="sidebar">
+                <h3>Education</h3>
+                <ul>
+                    <li>BSc in Computer Science</li>
+                    <li>Frontend Development Certification</li>
+                    <li>UI/UX Design Bootcamp</li>
+                </ul>
+                <h3>Interests</h3>
+                <ul>
+                    <li>Responsive web design</li>
+                    <li>User experience design</li>
+                    <li>Frontend frameworks</li>
+                    <li>Web accessibility</li>
+                </ul>
+            </aside>
+        </section>
+
+        <!-- Contact Form with Grid -->
+        <h2 class="section-title" id="contact">Get In Touch</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your Message"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer with Flexbox -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Daniel Kague Ngigi</h3>
+                <p>A passionate web developer focused on creating responsive and user-friendly websites with modern CSS techniques.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">L</a>
+                    <a href="#" class="social-icon">G</a>
+                    <a href="#" class="social-icon">T</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li>Email: daniel@example.com</li>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>Location: Nairobi, Kenya</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Daniel Kague Ngigi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript to toggle the mobile menu
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
